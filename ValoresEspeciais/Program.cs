@@ -18,6 +18,12 @@ namespace ValoresEspeciais
             Console.WriteLine($"Ulong: max.= {ulong.MaxValue} min.= {ulong.MinValue}");
             Console.WriteLine($"Uint: max.= {uint.MaxValue} min.= {uint.MinValue}");
             Console.WriteLine($"Char: max.= {char.MaxValue} min.= {char.MinValue}");
+
+            //special types
+
+            Console.WriteLine($"∞: neg.= {double.NegativeInfinity} pos.= {double.PositiveInfinity}");
+            Console.WriteLine($"NaN: {float.NaN}");
+            
         }
     }
 }
