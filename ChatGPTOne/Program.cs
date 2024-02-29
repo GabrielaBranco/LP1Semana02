@@ -28,7 +28,7 @@ namespace ChatGPTOne
                         response = "If you play League of Legends, then yes.";
                         break;
                     case "EXIT":
-                        response = "Goodbye :)!";
+                        response = "Goodbye! :)";
                         repeat = false;
                         break;
                     default:

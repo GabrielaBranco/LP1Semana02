@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.AccessControl;
 
 namespace ValoresEspeciais
 {
@@ -28,6 +29,16 @@ namespace ValoresEspeciais
 
             uint i = uint.MaxValue; 
             Console.WriteLine((uint) (i + 1));
+
+            float y = 2 * float.MaxValue;
+            float x = float.MaxValue + 1;
+            
+            Console.WriteLine(y);
+            Console.WriteLine(x);
+
+            float h , j ;
+            h = j = 10000.0f;
+            Console.WriteLine(h == j + 0.0001f);
             
         }
     }
