@@ -16,7 +16,6 @@ namespace Cilindro
 
             Console.WriteLine(MathF.PI * MathF.Pow(r,2) * a);
             Console.WriteLine(MathF.PI * 2 * r * (r + a));
-
         }
     }
 }
