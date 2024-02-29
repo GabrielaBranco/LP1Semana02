@@ -6,7 +6,7 @@ namespace Cilindro
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Give me the height of a cylinder:");
+            Console.WriteLine("Give me a height for a cylinder:");
             string altura = Console.ReadLine();
             float a = float.Parse(altura); 
             
