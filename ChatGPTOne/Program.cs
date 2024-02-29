@@ -13,6 +13,7 @@ namespace ChatGPTOne
             {
                 Console.Write("Place your question? ");
                 question = Console.ReadLine();
+                
                 switch (question)
                 {
                     case "Hello, what's your name?":
