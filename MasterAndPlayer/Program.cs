@@ -12,7 +12,7 @@ namespace MasterAndPlayer
 
             if (n > 100 || n < 0)
             {
-                    Console.WriteLine("Invalid Number!");
+                Console.WriteLine("Invalid Number!");
             }
 
             else
@@ -33,6 +33,7 @@ namespace MasterAndPlayer
                         Console.WriteLine("Invalid number! Try again!");
                         continue;
                     }
+                    
                     else if (inp < n)
                     {
                         Console.WriteLine("The correct number is higher than " + input);
